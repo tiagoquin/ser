@@ -1,9 +1,76 @@
-<?xml version="1.1" encoding="ISO-8859-1"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE fse SYSTEM "contraintes.dtd">
 
 <fse>
-    <tournoi>
+    <!-- Tous les joueurs -->
+    <liste-joueurs>
+
+        <joueur id-fse="j1">
+            <nom>Gabin</nom>
+            <prenom>Michel</prenom>
+            <elo>2104</elo>
+        </joueur>
+        <joueur id-fse="j2">
+            <nom>Proseco</nom>
+            <prenom>Luigi</prenom>
+            <elo>500</elo>
+        </joueur>
+        <joueur id-fse="j3">
+            <nom>Zero</nom>
+            <prenom>Alpha</prenom>
+            <elo>3003</elo>
+        </joueur>
+        <joueur id-fse="j4">
+            <nom>Vandamn</nom>
+            <prenom>Jean-Claude</prenom>
+            <elo>2105</elo>
+        </joueur>
+    </liste-joueurs>
+
+    <!-- Tous les arbitres -->
+    <liste-arbitres>
+
+        <arbitre id-arbitre="a1">
+            <nom>Meier</nom>
+            <prenom>Urs</prenom>
+        </arbitre>
+        <arbitre id-arbitre="a2">
+            <nom>Garcia</nom>
+            <prenom>José</prenom>
+        </arbitre>
+    </liste-arbitres>
+
+    <!-- Tous les tournois-->
+    <liste-tournois>
+        <tournoi nom="Tournoi du Léman">
+
+            <partie id-blanc="j1" id-noir="j4" id-arbitre="a1">
+                <date>
+                    <jour>24</jour>
+                    <mois>12</mois>
+                    <annee>1948</annee>
+                </date>
+                <score resultat="1-0"/>
+                <deroulement>
+
+                </deroulement>
+            </partie>
         
-    </tournoi>
-    <tournoi></tournoi>
+        </tournoi>
+
+        <tournoi nom="Tournoi de Payerne">
+
+            <partie id-blanc="j2" id-noir="j3" id-arbitre="a2">
+                <date>
+                    <jour>1</jour>
+                    <mois>2</mois>
+                    <annee>2003</annee>
+                </date>
+                <score />
+                <deroulement>
+
+                </deroulement>
+            </partie>
+        </tournoi>
+    </liste-tournois>
 </fse>

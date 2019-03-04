@@ -1,24 +1,70 @@
-<!ELEMENT fse (tournoi*)>
-<!ELEMENT tournoi (partie*)>
+<!ELEMENT fse (liste-joueurs, liste-arbitres, liste-tournois)>
+
+<!-- Tournois -->
+<!ELEMENT liste-tournois (tournoi*)>
+
+<!ELEMENT tournoi (partie+)>
+<!ATTLIST tournoi   nom CDATA #REQUIRED
+                    vainqueur IDREF #IMPLIED>
 
 <!-- Partie -->
-<!ELEMENT partie (date, heure, score, arbitre)>
+<!ELEMENT partie (date, score, deroulement)>
 <!ATTLIST partie    id-blanc IDREF #REQUIRED
-                    id-noir IDREF #REQUIRED>
-<!ELEMENT score (#PCDATA)>
-
-<!ELEMENT arbitre (nom, prenom)>
-<!ELEMENT nom (#PCDATA)>
-<!ELEMENT prenom (#PCDATA)>
+                    id-noir IDREF #REQUIRED
+                    id-arbitre IDREF #REQUIRED>
 
 <!-- Date -->
 <!ELEMENT date (jour, mois, annee)>
 <!ELEMENT jour (#PCDATA)>
 <!ELEMENT mois (#PCDATA)>
 <!ELEMENT annee (#PCDATA)>
-<!ELEMENT heure (#PCDATA)>
 
-<!-- Joueur -->
+<!-- score -->
+<!ELEMENT score EMPTY>
+<!ATTLIST score resultat (1-0|0.5-0.5|0-1) #IMPLIED>
+
+<!-- liste arbitre-->
+<!ELEMENT liste-arbitres (arbitre*)>
+
+<!-- arbitre -->
+<!ELEMENT arbitre (nom, prenom)>
+<!ATTLIST arbitre id-arbitre ID #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+
+<!-- Liste des joueurs -->
+<!ELEMENT liste-joueurs (joueur*)>
+
 <!ELEMENT joueur (nom, prenom, elo)>
 <!ATTLIST joueur id-fse ID #REQUIRED>
 <!ELEMENT elo (#PCDATA)>
+
+<!-- deroulement -->
+<!ELEMENT deroulement (#PCDATA)>
+
+<!-- coup -->
+<!ELEMENT coup ((roque|deplacement), situation?)>
+
+<!ELEMENT situation EMPTY>
+<!ATTLIST situation etat-partie (echec|echec-et-mat|partie-nulle) #REQUIRED>
+
+<!ELEMENT roque EMPTY>
+<!ATTLIST roque type (petit|grand) #REQUIRED>
+
+<!ELEMENT deplacement (piece, depart?, arrivee, elimination?, promotion?)>
+
+<!-- piece -->
+<!ELEMENT piece EMPTY>
+<!ATTLIST piece type (roi|pion|tour|cavalier|fou|dame) #REQUIRED>
+
+<!ELEMENT piece-promotion EMPTY>
+<!ATTLIST piece-promotion type (tour|cavalier|fou|dame) #REQUIRED>
+
+<!ELEMENT elimination (piece)>
+
+<!ELEMENT promotion (piece-promotion)>
+
+<!ELEMENT depart (case)>
+<!ELEMENT arrivee (case)>
+<!ELEMENT case (#PCDATA)>
