@@ -53,22 +53,500 @@
                 <score resultat="1-0"/>
                 <deroulement>
 
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="D" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="B" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="E" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="C" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="C" chiffre="3" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="H" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="G" chiffre="3" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="fou" />
+                            <arrivee>
+                                <case lettre="A" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="fou" />
+                            <arrivee>
+                                <case lettre="G" chiffre="2" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="D" chiffre="4" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="E" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="D" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="fou" />
+                            <arrivee>
+                                <case lettre="A" chiffre="8" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="tour" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="C" chiffre="7" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="cavalier" />
+                            <arrivee>
+                                <case lettre="E" chiffre="2" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="fou" />
+                            <arrivee>
+                                <case lettre="E" chiffre="2" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="cavalier" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="E" chiffre="2" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="fou" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="C" chiffre="3" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="C" chiffre="3" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="D" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <roque type="petit" />
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="C" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="fou" />
+                            <arrivee>
+                                <case lettre="F" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="cavalier" />
+                            <arrivee>
+                                <case lettre="D" chiffre="7" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="A" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="C" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="D" chiffre="1" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="cavalier" />
+                            <depart>
+                                <case lettre="G" chiffre="8" />
+                            </depart>
+                            <arrivee>
+                                <case lettre="F" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="A" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="G" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="fou" />
+                            <arrivee>
+                                <case lettre="G" chiffre="5" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="cavalier" />
+                            <arrivee>
+                                <case lettre="G" chiffre="8" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="A" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="D" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="D" chiffre="7" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="cavalier" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="roi" />
+                            <arrivee>
+                                <case lettre="D" chiffre="8" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="F" chiffre="3" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="roi" />
+                            <arrivee>
+                                <case lettre="D" chiffre="7" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="B" chiffre="7" />
+                            </arrivee>
+                        </deplacement>
+                        <situation etat-partie="echec" />
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="C" chiffre="7" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="D" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                        <situation etat-partie="echec" />
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="roi" />
+                            <arrivee>
+                                <case lettre="E" chiffre="8" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="B" chiffre="6" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="F" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="C" chiffre="7" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="dame" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="F" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="tour" />
+                            <arrivee>
+                                <case lettre="A" chiffre="7" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="C" chiffre="8" />
+                            </arrivee>
+                            <promotion>
+                                <piece-promotion type="dame" />
+                            </promotion>
+                        </deplacement>
+                        <situation etat-partie="echec-et-mat" />
+                    </coup>
                 </deroulement>
             </partie>
-        
         </tournoi>
 
         <tournoi nom="Tournoi de Payerne">
-
             <partie id-blanc="j2" id-noir="j3" id-arbitre="a2">
                 <date>
                     <jour>1</jour>
                     <mois>2</mois>
                     <annee>2003</annee>
                 </date>
-                <score />
+                <score resultat="1-0" />
                 <deroulement>
-
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="E" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="E" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="H" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="cavalier" />
+                            <arrivee>
+                                <case lettre="C" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="fou" />
+                            <arrivee>
+                                <case lettre="C" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="cavalier" />
+                            <arrivee>
+                                <case lettre="F" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="F" chiffre="7" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                        <situation etat-partie="echec-et-mat" />
+                    </coup>
                 </deroulement>
             </partie>
         </tournoi>

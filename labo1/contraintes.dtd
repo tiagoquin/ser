@@ -41,7 +41,7 @@
 <!ELEMENT elo (#PCDATA)>
 
 <!-- deroulement -->
-<!ELEMENT deroulement (#PCDATA)>
+<!ELEMENT deroulement (coup*)>
 
 <!-- coup -->
 <!ELEMENT coup ((roque|deplacement), situation?)>
@@ -67,4 +67,6 @@
 
 <!ELEMENT depart (case)>
 <!ELEMENT arrivee (case)>
-<!ELEMENT case (#PCDATA)>
+<!ELEMENT case EMPTY>
+<!ATTLIST case lettre (A|B|C|D|E|F|G|H) #REQUIRED
+                chiffre (1|2|3|4|5|6|7|8) #REQUIRED>
