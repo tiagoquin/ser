@@ -42,17 +42,19 @@
 
     <!-- Tous les tournois-->
     <liste-tournois>
+        <!-- Tournoi 1 -->
         <tournoi nom="Tournoi du Léman">
-
+            <!-- Partie 1 -->
             <partie id-blanc="j1" id-noir="j4" id-arbitre="a1">
                 <date>
                     <jour>24</jour>
                     <mois>12</mois>
                     <annee>1948</annee>
+                    <heure>15</heure>
+                    <minute>30</minute>
                 </date>
                 <score resultat="1-0"/>
                 <deroulement>
-
                     <coup>
                         <deplacement>
                             <piece type="pion" />
@@ -476,14 +478,135 @@
                     </coup>
                 </deroulement>
             </partie>
+            <!-- Partie 2-->
+            <partie id-blanc="j2" id-noir="j3" id-arbitre="a1">
+                <date>
+                    <jour>24</jour>
+                    <mois>12</mois>
+                    <annee>1948</annee>
+                    <heure>16</heure>
+                    <minute>30</minute>
+                </date>
+                <score resultat="0-1"/>
+                <deroulement>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="E" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="C" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="roi" />
+                            <arrivee>
+                                <case lettre="E" chiffre="2" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="cavalier" />
+                            <arrivee>
+                                <case lettre="C" chiffre="6" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="roi" />
+                            <arrivee>
+                                <case lettre="E" chiffre="3" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="D" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="pion" />
+                            <arrivee>
+                                <case lettre="D" chiffre="5" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="D" chiffre="5" />
+                            </arrivee>
+                            <elimination>
+                                <piece type="pion" />
+                            </elimination>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="roi" />
+                            <arrivee>
+                                <case lettre="F" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="dame" />
+                            <arrivee>
+                                <case lettre="E" chiffre="5" />
+                            </arrivee>
+                        </deplacement>
+                        <situation etat-partie="echec" />
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="roi" />
+                            <arrivee>
+                                <case lettre="F" chiffre="3" />
+                            </arrivee>
+                        </deplacement>
+                    </coup>
+                    <coup>
+                        <deplacement>
+                            <piece type="cavalier" />
+                            <arrivee>
+                                <case lettre="D" chiffre="4" />
+                            </arrivee>
+                        </deplacement>
+                        <situation etat-partie="echec-et-mat" />
+                    </coup>
+                </deroulement>
+            </partie>
         </tournoi>
 
+        <!-- Tournoi 2 -->
         <tournoi nom="Tournoi de Payerne">
+            <!-- Partie 3 -->
             <partie id-blanc="j2" id-noir="j3" id-arbitre="a2">
                 <date>
                     <jour>1</jour>
                     <mois>2</mois>
                     <annee>2003</annee>
+                    <heure>9</heure>
+                    <minute>10</minute>
                 </date>
                 <score resultat="1-0" />
                 <deroulement>

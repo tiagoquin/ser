@@ -14,10 +14,12 @@
                     id-arbitre IDREF #REQUIRED>
 
 <!-- Date -->
-<!ELEMENT date (jour, mois, annee)>
+<!ELEMENT date (jour, mois, annee, heure, minute)>
 <!ELEMENT jour (#PCDATA)>
 <!ELEMENT mois (#PCDATA)>
 <!ELEMENT annee (#PCDATA)>
+<!ELEMENT heure (#PCDATA)>
+<!ELEMENT minute (#PCDATA)>
 
 <!-- score -->
 <!ELEMENT score EMPTY>
