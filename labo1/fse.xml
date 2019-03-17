@@ -43,7 +43,7 @@
     <!-- Tous les tournois-->
     <liste-tournois>
         <!-- Tournoi 1 -->
-        <tournoi nom="Tournoi du Léman">
+        <tournoi nom="Tournoi du Léman" vainqueur="j1">
             <!-- Partie 1 -->
             <partie id-blanc="j1" id-noir="j4" id-arbitre="a1">
                 <date>
@@ -598,7 +598,7 @@
         </tournoi>
 
         <!-- Tournoi 2 -->
-        <tournoi nom="Tournoi de Payerne">
+        <tournoi nom="Tournoi de Payerne" vainqueur="j2">
             <!-- Partie 3 -->
             <partie id-blanc="j2" id-noir="j3" id-arbitre="a2">
                 <date>
