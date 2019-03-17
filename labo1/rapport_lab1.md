@@ -20,6 +20,18 @@ Dans ce laboratoire nous avons modélisé la structure d'un document XML soutenu
 
 ### Choix d'implémentation
 
+Nous avons choisi de structurer notre XML en suivant le schema ci-dessous. À noter que ce n'est pas un schema UML "valide", dans le sens où il ne respecte pas les normes que devrait avoir un schema UML. Il a pour unique but de clarifier nos choix d'implémentation.
+
+![Schema fse](fse_uml.png)
+
+Quelques notes supplémentaires :
+
+- Les éléments d'une date sont dans des balises distinctes et non en temps qu'attribut pour facilité le parsing.
+- Un coup est engendré par un déplacement ou un roque. Les deux ne peuvent pas avoir lieu simultanément.
+- Il y a une différence entre une piece et une piece-promotion pour pouvoir ajouter la contrainte qu'un pion ne peut qu'être promu dans certaines autres pièces. (pas en un autre pion ou un roi par exemple)
+- une case est formée d'un attribut <i>lettre</i> et d'un attribut <i>chiffre</i> avec des choix prédéfinis pour assurer la validité de la case.
+- le score est une balise simple est vide avec un attribut <i>resultat</i> pour ajouter la contrainte que celui-ci ne peut que prendre les valeurs suivantes : 0-1,0.5-0.5 et 1-0.
+
 ### Code de la DTD
 
 ```dtd
@@ -150,7 +162,7 @@ Dans ce laboratoire nous avons modélisé la structure d'un document XML soutenu
     <!-- Tous les tournois-->
     <liste-tournois>
         <!-- Tournoi 1 -->
-        <tournoi nom="Tournoi du Léman">
+        <tournoi nom="Tournoi du Léman" vainqueur="j1">
             <!-- Partie 1 -->
             <partie id-blanc="j1" id-noir="j4" id-arbitre="a1">
                 <date>
@@ -705,7 +717,7 @@ Dans ce laboratoire nous avons modélisé la structure d'un document XML soutenu
         </tournoi>
 
         <!-- Tournoi 2 -->
-        <tournoi nom="Tournoi de Payerne">
+        <tournoi nom="Tournoi de Payerne" vainqueur="j2">
             <!-- Partie 3 -->
             <partie id-blanc="j2" id-noir="j3" id-arbitre="a2">
                 <date>
