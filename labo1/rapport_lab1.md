@@ -942,11 +942,11 @@ On peut rajouter deux attributs à la partie pour les ELO du joueur blanc et noi
 - <i>Est-ce possible dans votre DTD de représenter le fait qu’il ne peut y avoir que 20
 parties au maximum dans un tournoi ? Si oui, comment ?</i><br/><br/>
 
-Pas facilement. Les cardinalités de base en DTD sont 0-1, 1, 1 ou plus, 0 ou plus. 
+Oui c'est possible, mais il ne semble pas y a voir de manière propre de le faire en utilisant une DTD. On peut par exemple (c'est extrêment sale) avoir toutes les possibilités avec un opérateur <i>OR</i> (|) entre eux.
 
 - <i>Est-ce possible dans votre DTD de représenter le fait que les 2 joueurs d’une partie
 doivent être différents ? Si oui, comment ?</i><br/><br/>
 
-todo
+Cela ne semble pas être possible en utilisant une DTD.
 
 ## Conclusion
