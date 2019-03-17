@@ -1,5 +1,7 @@
 # SER Laboratoire 1
 
+Tiago Povoa & Christoph Rouff soit Rueff
+
 ## Table des matières
 
 - [Introduction](#introduction)
@@ -929,7 +931,7 @@ Quelques notes supplémentaires :
 
 ![XML Validation](xml_validation.png)
 
-Pour valider notre document nous avons créé un fichier <i>lab1_valid.xml</i> qui n'est rien d'autre que notre fichier XML qui intègre directement sa DTD et nous l'avons passé dans le validateur de <http://xmlvalidator.new-studio.org/> qui support le XML 1.1.
+Pour valider notre document nous avons créé un fichier <i>lab1_valid.xml</i> qui n'est rien d'autre que notre fichier XML qui intègre directement sa DTD et nous l'avons passé dans le validateur de <http://xmlvalidator.new-studio.org/> qui supporte le XML 1.1.<br/><br/><br/><br/>
 
 ## Questions
 
