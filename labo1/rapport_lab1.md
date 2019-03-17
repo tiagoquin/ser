@@ -942,7 +942,7 @@ On peut rajouter deux attributs à la partie pour les ELO du joueur blanc et noi
 - <i>Est-ce possible dans votre DTD de représenter le fait qu’il ne peut y avoir que 20
 parties au maximum dans un tournoi ? Si oui, comment ?</i><br/><br/>
 
-Oui c'est possible, mais il ne semble pas y a voir de manière propre de le faire en utilisant une DTD. On peut par exemple (c'est extrêment sale) avoir toutes les possibilités avec un opérateur <i>OR</i> (|) entre eux.
+Oui c'est possible, mais il ne semble pas y a voir de manière propre de le faire en utilisant une DTD. On peut par exemple (c'est extrêment sale) avoir toutes les possibilités avec un opérateur <i>OR</i> ( | ) entre eux.
 
 - <i>Est-ce possible dans votre DTD de représenter le fait que les 2 joueurs d’une partie
 doivent être différents ? Si oui, comment ?</i><br/><br/>
@@ -950,3 +950,5 @@ doivent être différents ? Si oui, comment ?</i><br/><br/>
 Cela ne semble pas être possible en utilisant une DTD.
 
 ## Conclusion
+
+En faisant ce laboratoire nous avons pu voir qu'il y a de nombreuses manières, plus ou moins bonnes, de structurer un document XML avec des contraintes DTD. Bien que la DTD permette de définir un bon nombre de règles son utilité rèste tout de même relativement limitée. XSD (XML Schema) semble être une alternative plus puissante pour décrire un document XML et permettrait peut-être d'implémenter les contraintes proposées dans les questions avec plus de facilité.
